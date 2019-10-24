@@ -7,37 +7,19 @@
 
     <fragment
         android:id="@+id/nav_home"
-        android:name="com.tnt.homestay.ui.home.HomeFragment"
-        android:label="@string/menu_home"
+        android:name="com.tnt.homestay.fragment.HomeFragment"
+        android:label="@string/home"
         tools:layout="@layout/fragment_home" />
 
     <fragment
-        android:id="@+id/nav_gallery"
-        android:name="com.tnt.homestay.ui.gallery.GalleryFragment"
-        android:label="@string/menu_gallery"
-        tools:layout="@layout/fragment_gallery" />
+        android:id="@+id/nav_find"
+        android:name="com.tnt.homestay.fragment.FindFragment"
+        android:label="@string/find"
+        tools:layout="@layout/fragment_find" />
 
     <fragment
-        android:id="@+id/nav_slideshow"
-        android:name="com.tnt.homestay.ui.slideshow.SlideshowFragment"
-        android:label="@string/menu_slideshow"
-        tools:layout="@layout/fragment_slideshow" />
-
-    <fragment
-        android:id="@+id/nav_tools"
-        android:name="com.tnt.homestay.ui.tools.ToolsFragment"
-        android:label="@string/menu_tools"
-        tools:layout="@layout/fragment_tools" />
-
-    <fragment
-        android:id="@+id/nav_share"
-        android:name="com.tnt.homestay.ui.share.ShareFragment"
-        android:label="@string/menu_share"
-        tools:layout="@layout/fragment_share" />
-
-    <fragment
-        android:id="@+id/nav_send"
-        android:name="com.tnt.homestay.ui.send.SendFragment"
-        android:label="@string/menu_send"
-        tools:layout="@layout/fragment_send" />
+        android:id="@+id/nav_favorite"
+        android:name="com.tnt.homestay.fragment.FavoriteFragment"
+        android:label="@string/favorite"
+        tools:layout="@layout/fragment_favorite" />
 </navigation>
